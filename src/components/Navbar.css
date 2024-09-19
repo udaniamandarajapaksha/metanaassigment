@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Dancing Script;
+    color: #0000009a;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links li {
+    cursor: pointer;
+    font-size: 12px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.nav-links li:hover {
+    color: #50C878;
+    text-decoration: underline;
+}

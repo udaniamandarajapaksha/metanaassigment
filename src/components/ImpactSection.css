@@ -1,0 +1,27 @@
+.impact-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #0a6969;
+    color: white;
+    font-family: Brush Script;
+}
+
+.impact-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.impact-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #005757;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}

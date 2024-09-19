@@ -1,0 +1,82 @@
+/* Hero section container */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f5f5f5;
+    align-items: center;
+}
+
+/* Hero content box */
+.hero-content {
+    max-width: 50%;  
+    padding: 30px;   
+    background-image: url('C:\Users\my\Desktop\React1\project01\public\images\52.jpg');  
+    background-size: cover;  
+     background-position: center;  
+    background-repeat: no-repeat; 
+    border-radius: 15px;  
+    color: white;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Heading style */
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white; /* White text */
+    animation: fadeInUp 1.5s ease-in-out; /* Animation for heading */
+}
+
+/* Paragraph style */
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white; 
+    animation: fadeInUp 2s ease-in-out; 
+}
+
+/* Subscribe button style */
+.call-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: fadeInUp 2.5s ease-in-out; 
+    border-radius: 8px;
+}
+
+.call-button:hover {
+    background-color: #45a049; 
+    transform: scale(1.05);   
+}
+
+/* Hero image container */
+.hero-image {
+    max-width: 50%; 
+    display: flex;
+    justify-content: center; 
+    padding: 10px; /* Adjust to balance image with the content */
+}
+
+/* Hero image style */
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Keyframes for the fade-in and up animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
